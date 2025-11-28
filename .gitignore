@@ -1,0 +1,28 @@
+# Ignore build output folders
+Debug/
+Release/
+build/
+bin/
+
+# Ignore large video files
+Videos/
+*.mp4
+*.mov
+*.avi
+
+# Ignore local IDE settings
+.settings/
+.metadata/
+
+# Ignore specific compiled files (just in case)
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+
+# Optional: Ignore Eclipse launch configurations if they are user-specific
+# (Keep this if you want to share how to debug the project)
+# *.launch
